@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=League+Spartan">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
+
+    <title>Lim Zheng Xuan</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-overlay"></div>
+        
+        <div class="nav-left">
+            <a href="#home">Zheng Xuan</a>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">
+                    <button class="nav-contact">Contact</button>
+                </a></li>
+            </ul>
+        </div>
+
+        <!-- Small Browser Nav -->
+        <div class="nav-burger" onClick="toggleNav()">
+            <i class="uil uil-bars"></i>
+        </div>
+
+        <div class="nav-burgerlinkcontainer">
+            <div class="nav-overlay"></div>
+            
+            <ul>
+                <a href="#home"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#experience"><li>Experience</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home-left">
+            <h1 class="home-greeting">Hi, I'm Zheng Xuan</h1>
+            <h2 class="home-currpos">Current Position</h2>
+            <p class="home-tags">Lorem ipsum dolor | sit amet |consectetur adipiscing | eli sed | do eiusmod tempor</p>
+            <a href="#about">
+                <button class="home-findoutmore">
+                    Find Out More
+                    <i class="uil uil-arrow-circle-right"></i>
+                </button>
+            </a>
+        </div>
+        <div class="home-right">
+            <div class="home-profilecontainer">
+                <img src="assets/images/profile-pic.png" alt="profile picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to top button -->
+    <button id="backToTop" onclick="scrollToTop()"><i class="uil uil-arrow-up"></i></button>
+
+    <!-- About -->
+    <section id="about">
+        <div class="section-header">
+            <h1 class="about-header">About</h1>
+            <h2 class="about-subheader">Introduction</h2>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-left">
+                <div class="about-polaroid">
+                    <img src="assets/images/introduction-pic.png" alt="introduction picture">
+                </div>
+            </div>
+            <div class="about-right">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et sollicitudin ac orci phasellus egestas tellus rutrum. Pretium fusce id velit ut tortor pretium viverra. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et sollicitudin ac orci phasellus egestas tellus rutrum. Pretium fusce id velit ut tortor pretium viverra. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="section-header">
+            <h1 class="skills-header">Skills</h1>
+            <h2 class="skills-subheader">Technical Skills</h2>
+        </div>
+
+        <div class="skills-content">
+            <div class="skills-left">
+
+                <div class="skills-pl">
+                    <h1>Programming Languages</h1>
+                    <div class="skills-plcontainer">
+                    <ul>
+                        <li><button class="skills-button">Python</button></li>
+                        <li><button class="skills-button">SQL</button></li>
+                        <li><button class="skills-button">Java</button></li>
+                        <li><button class="skills-button">MATLAB</button></li>
+                    </ul>
+                    </div>
+                </div>
+            
+                <div class="skills-db">
+                    <h1>Databases</h1>
+                    <div class="skills-dbcontainer">
+                        <ul>
+                            <li><button class="skills-button">MS SQL Server</button></li>
+                            <li><button class="skills-button">Postgres</button></li>
+                            <li><button class="skills-button">MySQL</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="skills-swe">
+                    <h1>Software Engineering</h1>
+                    <div class="skills-swecontainer">
+                        <ul>
+                            <li><button class="skills-button">Git</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-right">
+                <div class="skills-ds">
+                    <h1>Data Science</h1>
+                    <div class="skills-dscontainer">
+                        <ul>
+                            <li><button class="skills-button">NumPy</button></li>
+                            <li><button class="skills-button">Pandas</button></li>
+                            <li><button class="skills-button">Scikit-learn</button></li>
+                            <li><button class="skills-button">TensorFlow</button></li>
+                            <li><button class="skills-button">Matplotlib</button></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="skills-misc">
+                    <h1>Misc.</h1>
+                    <div class="skills-misccontainer">
+                        <ul>
+                            <li><button class="skills-button">Agile Methodology</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <div class="section-header">
+            <h1 class="exp-header">Experience</h1>
+            <h2 class="exp-subheader">Professional Experience</h2>
+        </div>
+
+        <div class="exp-content">
+            <div class="exp-timeline">
+
+                <!-- Odd Entries -->
+                <div class="exp-entry">
+                    <h1>Position 1</h1>
+                    <h2>Company 1</h2>
+                    <h3><i class="uil uil-calendar-alt"></i>Date 1 - Date 2</h3>
+                </div>
+
+                <div class="exp-dotlinecontainer">
+                    <span class="exp-dot"></span>
+                    <span class="exp-line"></span>
+                </div>
+
+                <div class="exp-blank"></div>
+
+
+                <!-- Even Entries -->
+                <div class="exp-blank"></div>
+
+                <div class="exp-dotlinecontainer">
+                    <span class="exp-dot"></span>
+                    <span class="exp-line"></span>
+                </div>
+
+                <div class="exp-entry">
+                    <h1>Position 2</h1>
+                    <h2>Company 2</h2>
+                    <h3><i class="uil uil-calendar-alt"></i>Date 1 - Date 2</h3>
+                </div>
+
+                <!-- Entry 3 -->
+                <div class="exp-entry">
+                    <h1>Position 3</h1>
+                    <h2>Company 3</h2>
+                    <h3><i class="uil uil-calendar-alt"></i>Date 1 - Date 2</h3>
+                </div>
+
+                <div class="exp-dotlinecontainer">
+                    <span class="exp-dot"></span>
+                    <span class="exp-line"></span>
+                </div>
+
+                <div class="exp-blank"></div>
+
+            </div>
+
+            <div class="exp-certifications">
+                <h1 class="exp-header">Professional Certifications</h1>
+            </div>
+
+            <div class="exp-certcontainer">
+                <ul>
+                    <li>Certification 1</li>
+                    <li>Certification 2</li>
+                </ul>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-header">
+            <h1 class="project-header">Projects</h1>
+            <h2 class="project-subheader">Personal Projects & Contributions</h2>
+        </div>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+            <!-- Slides -->
+            <div class="swiper-slide">
+
+                <div class="project-entry">
+                    <div class="project-entryleft">
+                        <img src="assets/images/project1-img.png" alt="project1-image">
+                    </div>
+                    <div class="project-entryright">
+                        <h1>Project 1 Title</h1>
+                        <h2>Some | Key | Stack</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <a href="google.com"><button class="project-link">View<i class="uil uil-external-link-alt"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="project-entry">
+                    <div class="project-entryleft">
+                        <img src="assets/images/project2-img.png" alt="project2-image">
+                    </div>
+                    <div class="project-entryright">
+                        <h1>Project 2 Title</h1>
+                        <h2>Some | Key | Stack</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <a href="google.com"><button class="project-link">View<i class="uil uil-external-link-alt"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="project-entry">
+                    <div class="project-entryleft">
+                        <img src="assets/images/project3-img.png" alt="project3-image">
+                    </div>
+                    <div class="project-entryright">
+                        <h1>Project 3 Title</h1>
+                        <h2>Some | Key | Stack</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <a href="google.com"><button class="project-link">View<i class="uil uil-external-link-alt"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        </div>
+       
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+       
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
