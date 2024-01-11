@@ -252,7 +252,7 @@ nav {
 
     .home-left {
         box-sizing: border-box;
-        padding: 15px 30px 30px;
+        padding: 15px 40px 30px;
         width: 100%;
         overflow-wrap: break-word;
         text-align: left;
@@ -262,7 +262,7 @@ nav {
     
     .home-right {
         box-sizing: border-box;
-        padding: 120px 30px 15px;
+        padding: 150px 40px 15px;
         vertical-align: middle;
         width: 100%;
     }
@@ -377,7 +377,7 @@ nav {
     .about-right {
         box-sizing: border-box;
         text-align: center;
-        padding: 0;
+        padding: 0 20px;
     }
 }
 
@@ -725,11 +725,148 @@ nav {
     }
 
     .project-entryleft {
-        margin: 0 0 20px;
+        margin: 0 0 30px;
     }
 
     .project-entryleft img {
         height: 200px;
         width: 200px;
     }
+}
+
+/* Contact */
+#contact {
+    flex-direction: column;
+    margin: 50px calc(0vw + 360 * (100vw - 500px) / (1920 - 500));
+}
+
+.contact-header {
+    font-family: 'League Spartan', helvetica;
+    font-size: calc(30px + (40 - 30) * (100vw - 500px) / (1920 - 500));
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 5px;
+}
+
+.contact-subheader {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: 'Open Sans', verdana;
+    font-size: calc(16px + (18 - 16) * (100vw - 500px) / (1920 - 500));
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 5px;
+}
+
+.contact-container {
+    display: flex;
+    margin-top: 80px;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact-container i {
+    font-size: 40px;
+    color: #BB86FC;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.contact-information h1 {
+    font-family: 'Open Sans', verdana;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 5px;
+}
+
+.contact-information h2 {
+    color: rgba(255, 255, 255, 0.38);
+    font-family: 'Open Sans', verdana;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 5px;
+}
+
+#contact-location {
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    margin: 150px 0 0; 
+    z-index: 1000;
+}
+
+.footer-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05); 
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    margin: 15px calc(0vw + 360 * (100vw - 500px) / (1920 - 500));
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link i {
+    font-size: 30px;
+    color: #000000;
+}
+
+.footer-copyrightcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer-copyrightcontainer i {
+    margin-right: 10px;
+}
+
+.footer-copyrightcontainer h3 {
+    font-family: 'Open Sans', verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.38);
+    margin: 0;
+    padding: 0;
 }
