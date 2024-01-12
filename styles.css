@@ -17,6 +17,12 @@ section {
     --swiper-pagination-bullet-inactive-color: #FFFFFF;
   }
 
+@media screen and (max-width: 767px) {
+    section {
+        overflow-x: hidden;
+    }
+}
+
 /* Navigation Bar */
 nav {
     background-color: #121212;
@@ -155,7 +161,7 @@ nav {
     font-size: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .nav-left a, .nav-right li {
         display: none;
     }
@@ -244,7 +250,7 @@ nav {
     height: calc(200px + (300 - 200) * (100vw - 500px) / (1920 - 500));
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #home {
         flex-direction: column-reverse;
         height: fit-content;
@@ -363,7 +369,7 @@ nav {
     margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .about-content {
         flex-direction: column;
     }
@@ -463,7 +469,7 @@ nav {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .skills-content {
         flex-direction: column;
     }
@@ -716,7 +722,7 @@ nav {
     margin-left: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .project-entry {
         flex-direction: column;
     }
