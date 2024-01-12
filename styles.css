@@ -470,14 +470,14 @@ nav {
 
     .skills-left {
         box-sizing: border-box;
-        margin: 15px 40px 0;
-        padding: 0;
+        margin: 15px 30px 0;
+        padding: 10px;
     }
 
     .skills-right {
         box-sizing: border-box;
-        margin: 0 40px;
-        padding: 0;
+        margin: 0 30px;
+        padding: 10px;
     }
 }
 
