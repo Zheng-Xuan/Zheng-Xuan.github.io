@@ -452,6 +452,7 @@ nav {
 
 .skills-content button {
     background-color: rgb(255, 255, 255, 0.87);
+    color: #000000;
     font-size: calc(14px + (18 - 14) * (100vw - 500px) / (1920 - 500));
     white-space: nowrap;
     padding: 5px 10px;
@@ -469,13 +470,13 @@ nav {
 
     .skills-left {
         box-sizing: border-box;
-        margin: 15px 30px 0;
+        margin: 15px 40px 0;
         padding: 0;
     }
 
     .skills-right {
         box-sizing: border-box;
-        margin: 0 30px;
+        margin: 0 40px;
         padding: 0;
     }
 }
