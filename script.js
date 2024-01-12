@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Smooth scrolling when clicking on navigation links
-    const links = document.querySelectorAll('a');
+    const links = document.querySelectorAll('.smooth-scroll');
     links.forEach(link => {
         link.addEventListener('click', smoothScroll);
     });
