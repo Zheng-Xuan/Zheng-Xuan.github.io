@@ -188,14 +188,14 @@ nav {
 .home-right {
     flex: 40%;
     padding: 30px;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
 }
 
 .home-greeting {
     color: #FFFFFF;
     font-family: 'League Spartan', helvetica;
-    font-size: calc(36px + (56 - 36) * (100vw - 500px) / (1920 - 500)); 
+    font-size: calc(30px + (56 - 30) * (100vw - 500px) / (1920 - 500)); 
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -249,7 +249,7 @@ nav {
     height: calc(200px + (300 - 200) * (100vw - 500px) / (1920 - 500));
 }
 
-@media (max-width: 820px) {
+@media (max-width: 768px) {
     #home {
         flex-direction: column-reverse;
         height: fit-content;
@@ -329,20 +329,16 @@ nav {
 
 .about-left {
     box-sizing: border-box;
-    flex: 30%;
-    flex-shrink: 2;
-    margin: 20px;
-    padding: 50px;
-    justify-items: center;
-    align-items: center;
+    flex: 40%;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
 }
 
 .about-right {
     box-sizing: border-box;
-    flex: 70%;
-    flex-grow: 2;
-    margin: 20px;
-    padding: 30px 0;
+    flex: 60%;
+    padding: 30px;
     text-align: left;
 }
 
@@ -363,14 +359,14 @@ nav {
 .about-right p {
     color: #FFFFFF;
     font-family: 'Open Sans', verdana;
-    font-size: calc(20px + (30 - 20) * (100vw - 500px) / (1920 - 500));
+    font-size: calc(16px + (30 - 16) * (100vw - 500px) / (1920 - 500));
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin: 0;
 }
 
-@media (max-width: 820px) {
+@media (max-width: 767px) {
     .about-content {
         flex-direction: column;
     }
