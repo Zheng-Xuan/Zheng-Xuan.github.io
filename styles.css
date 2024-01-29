@@ -20,7 +20,13 @@ section {
     --swiper-navigation-color: #BB86FC;
     --swiper-pagination-color: #BB86FC;
     --swiper-pagination-bullet-inactive-color: #FFFFFF;
-  }
+}
+
+@media (max-width: 375px) {
+    body {
+        margin: 10px
+    }
+}
 
 /* Navigation Bar */
 nav {
