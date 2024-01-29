@@ -25,7 +25,7 @@ section {
 @media (max-width: 375px) {
     section {
         box-sizing: border-box;
-        padding: 10px;
+        padding: 20px;
     }
 }
 
