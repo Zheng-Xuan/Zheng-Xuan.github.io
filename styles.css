@@ -202,7 +202,7 @@ nav {
 .home-greeting {
     color: #FFFFFF;
     font-family: 'League Spartan', helvetica;
-    font-size: calc(30px + (56 - 30) * (100vw - 500px) / (1920 - 500)); 
+    font-size: calc(28px + (56 - 28) * (100vw - 500px) / (1920 - 500)); 
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -245,15 +245,15 @@ nav {
 }
 
 .home-profilecontainer {
-    width: calc(200px + (300 - 200) * (100vw - 500px) / (1920 - 500));
-    height: calc(200px + (300 - 200) * (100vw - 500px) / (1920 - 500));
+    width: calc(200px + (350 - 200) * (100vw - 500px) / (1920 - 500));
+    height: calc(200px + (350 - 200) * (100vw - 500px) / (1920 - 500));
     border-radius: 50%;
     overflow: hidden;
 }
 
 .home-profilecontainer img {
-    width: calc(200px + (300 - 200) * (100vw - 500px) / (1920 - 500));
-    height: calc(200px + (300 - 200) * (100vw - 500px) / (1920 - 500));
+    width: calc(200px + (350 - 200) * (100vw - 500px) / (1920 - 500));
+    height: calc(200px + (350 - 200) * (100vw - 500px) / (1920 - 500));
 }
 
 @media (max-width: 768px) {
