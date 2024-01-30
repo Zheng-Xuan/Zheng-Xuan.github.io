@@ -187,14 +187,14 @@ nav {
 
 .home-left {
     flex: 60%;
-    padding: 30px;
+    padding: 20px;
     flex-wrap: nowrap;
     text-align: left;
 }
 
 .home-right {
     flex: 40%;
-    padding: 30px;
+    padding: 20px;
     justify-self: center;
     align-self: center;
 }
