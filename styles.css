@@ -187,14 +187,14 @@ nav {
 
 .home-left {
     flex: 60%;
-    padding: 20px;
+    padding: 20px 15px 20px;
     flex-wrap: nowrap;
     text-align: left;
 }
 
 .home-right {
     flex: 40%;
-    padding: 20px;
+    padding: 20px 15px 20px;
     justify-self: center;
     align-self: center;
 }
@@ -202,7 +202,7 @@ nav {
 .home-greeting {
     color: #FFFFFF;
     font-family: 'League Spartan', helvetica;
-    font-size: calc(20px + (56 - 20) * (100vw - 500px) / (1920 - 500)); 
+    font-size: calc(26px + (56 - 26) * (100vw - 500px) / (1920 - 500)); 
     font-style: normal;
     font-weight: 700;
     line-height: normal;
