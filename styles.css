@@ -546,7 +546,7 @@ nav {
 .exp-entry h1 {
     color: #FFFFFF;
     font-family: 'Open Sans', verdana;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -556,7 +556,7 @@ nav {
 .exp-entry h2 {
     color: rgb(255, 255, 255, 0.87);
     font-family: 'Open Sans', verdana;
-    font-size: 18px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
